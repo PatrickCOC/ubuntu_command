@@ -41,11 +41,11 @@ Running either of the above commands downloads a script and runs it. The script 
 
 # Update and Upgrade package
 
-* update
+## update
   
     sudo apt update
 
-* upgrade
+## upgrade
 
     sudo apt upgrade [option:package name]
     - list all upgradable
