@@ -39,5 +39,22 @@ Running either of the above commands downloads a script and runs it. The script 
     $ node -v
     v12.22.6
 
+# Update and Upgrade package
 
-# ubuntu_command
+* update
+  
+    sudo apt update
+
+* upgrade
+
+    sudo apt upgrade [option:package name]
+    - list all upgradable
+    sudo apt list --upgradable
+    - list all upgradable version
+    sudo apt list --upgradable -a
+
+# Install deb package
+    
+    cd deb_location
+    sudo apt install ./name.deb
+ 
